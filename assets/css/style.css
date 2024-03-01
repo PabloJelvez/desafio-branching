@@ -13,12 +13,20 @@ h1 {
   text-align: center;
   font-weight: 300;
 }
-  
+.divImg h6{
+  text-align: center;
+  position: relative;
+  bottom: 45px;
+
+}  
 img {
   max-width: 40%;
   padding: 20px;
   display: block;
   margin: 0 auto;
+}
+img:hover{
+  width: 23%;
 }
 
 form {
@@ -57,3 +65,8 @@ form {
   box-shadow: none;
   top: 6px; 
 } 
+
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bs-blue);
+  --bs-tooltip-color: var(--bs-white);
+}
